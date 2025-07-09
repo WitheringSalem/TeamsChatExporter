@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33530.505
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "TeamsChatExporter", "TeamsChatExporter.pyproj", "{0D239639-2E6A-4099-870A-EB8C19EEB9ED}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0D239639-2E6A-4099-870A-EB8C19EEB9ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D239639-2E6A-4099-870A-EB8C19EEB9ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {28BAE173-60A2-451C-A624-E9503DAC4244}
+	EndGlobalSection
+EndGlobal
