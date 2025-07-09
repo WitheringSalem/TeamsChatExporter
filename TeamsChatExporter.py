@@ -7,6 +7,8 @@ from pathlib import Path
 import hashlib
 import re
 
+
+# Requires a 365 App Registration with the permissions 'AuditLog.Read.All', 'Chat.Read.All' & 'User.Read.All'
 # Replace with your Azure AD app credentials
 CLIENT_ID = '<>'
 TENANT_ID = '<>'
@@ -74,7 +76,7 @@ def export_chat_to_html(user_name, readable_name, chat_type, chat_id, messages):
     safe_name = readable_name if readable_name else chat_id
     safe_name = safe_name.replace("@", "_at_").replace(".", "_").replace(" ", "_")
 
-    # 🔪 Truncate if too long (e.g. limit to 100 chars)
+    #Truncate if too long (e.g. limit to 100 chars)
     if len(safe_name) > 100:
         # Append a hash to preserve uniqueness
         digest = hashlib.sha256(safe_name.encode('utf-8')).hexdigest()[:8]
